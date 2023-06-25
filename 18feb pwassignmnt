@@ -1,0 +1,66 @@
+Web Api
+Assignment Questions 
+Assignment 
+Q1. What is an API? Give an example, where an API is used in real life. 
+An API, which stands for Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate and interact with each other. It defines the methods and data formats that applications can use to request and exchange information.
+APIs are used in various contexts and industries. One common example is in web development, where APIs enable different applications or services to access and exchange data with each other. For instance, social media platforms like Facebook, Twitter, or Instagram provide APIs that allow developers to integrate their applications with these platforms.
+
+Q2. Give advantages and disadvantages of using API.  
+dvantages of using APIs:
+Modularity and Reusability: APIs allow developers to build applications by leveraging existing functionalities and services, saving time and effort. Developers can reuse APIs across multiple projects, promoting modularity and code reusability.
+Efficiency and Scalability: APIs enable developers to distribute the workload by breaking down complex systems into smaller, manageable components. This promotes efficiency and scalability, as different teams can work on separate modules simultaneously, allowing for faster development and easier maintenance.
+             Integration and Interoperability: APIs facilitate the integration of different systems, applications, and services, enabling them to communicate and share data seamlessly. This promotes interoperability and allows businesses to create comprehensive solutions by leveraging the capabilities of various software components.
+Ecosystem Expansion: APIs encourage the development of third-party applications and services that integrate with existing platforms. This expands the ecosystem around a product or service, providing additional value to users and driving innovation
+
+Q3. What is a Web API? Differentiate between API and Web API. 
+A Web API, also known as a web service API, is an API specifically designed to enable communication and interaction between web-based systems and applications.
+API is a general term that refers to a set of rules, protocols, and tools that allow software applications to communicate and interact with each other
+Web API specifically refers to an API designed to enable communication between web-based systems and applications.
+
+APIs can be used in various contexts, including web development, mobile app development, operating systems, databases, and more.
+Examples of Web APIs include the Twitter API, Facebook Graph API, Google Maps API, or any API specifically developed for web-based systems.
+
+APIs can facilitate communication between different types of applications, including web-based, mobile, desktop, or server-side applications.
+Web APIs typically expose resources and functionalities over the internet, allowing clients to perform operations like retrieving data, submitting data, updating resources, or executing specific actions.
+
+
+Q4. Explain REST and SOAP Architecture. Mention shortcomings of SOAP. 
+REST (Representational State Transfer) and SOAP (Simple Object Access Protocol) are two architectural styles used for designing web services. Here's an explanation of each architecture and the shortcomings of SOAP:
+REmodel.
+It is based on a set of principles and constraints that promote scalability, simplicity, and interoperability.
+RESTful APIs typically use the HTTP protocol for communication, making use of its verbs (GET, POST, PUT, DELETE) and status codes.
+Resources are identified by URIs (Uniform Resource Identifiers), and operations are performed on these resources using standard HTTP methods.
+REST APIs ST Architecture:
+REST is an architectural style that emphasizes a stateless client-server communication are lightweight, easy to understand, and widely used in web development.
+RESTful APIs support a wide range of data formats, such as JSON (JavaScript Object Notation) and XML (eXtensible Markup Language).
+OAP Architecture:
+SOAP is an XML-based messaging protocol used for exchanging structured information in web services.
+It is a more complex and feature-rich architecture compared to REST.
+SOAP APIs use XML for message formatting and typically rely on the HTTP or other transport protocols for communication
+SOAP can be used with various transport protocols, including HTTP, SMTP (Simple Mail Transfer Protocol), or JMS (Java Message Service)
+Shortcomings of SOAP:
+Complexity: SOAP has a complex and verbose structure due to its reliance on XML. This complexity makes it harder to understand, implement, and maintain compared to the simplicity of REST.
+Performance Overhead: The XML-based messaging and additional layers in SOAP result in higher bandwidth consumption and increased processing overhead. This can impact performance, especially in situations where resources are limited.
+Lack of Caching: SOAP messages are not as cache-friendly as RESTful representations. Caching can significantly improve performance by reducing server load and network latency, but SOAP lacks standardized support for caching mechanisms.
+Limited Language and Platform Independence: SOAP relies on XML schemas and specifications, making it more tightly coupled to specific programming languages and platforms. This can limit interoperability between systems built on different technologies.
+
+
+
+
+         
+
+Q5. Differentiate between REST and SOAP. 
+It is based on a set of principles and constraints that promote scalability, simplicity, and interoperability.
+RESTful APIs typically use the HTTP protocol for communication, making use of its verbs (GET, POST, PUT, DELETE) and status codes.
+Resources are identified by URIs (Uniform Resource Identifiers), and operations are performed on these resources using standard HTTP methods.
+REST APIs ST Architecture:
+REST is an architectural style that emphasizes a stateless client-server communication are lightweight, easy to understand, and widely used in web development.
+RESTful APIs support a wide range of data formats, such as JSON (JavaScript Object Notation) and XML (eXtensible Markup Language).
+OAP Architecture:
+SOAP is an XML-based messaging protocol used for exchanging structured information in web services.
+It is a more complex and feature-rich architecture compared to REST.
+SOAP APIs use XML for message formatting and typically rely on the HTTP or other transport protocols for communication
+SOAP can be used with various transport protocols, including HTTP, SMTP (Simple Mail Transfer Protocol), or JMS (Java Message Service)
+
+Note:  Create your assignment in Jupyter notebook and upload it to GitHub & share that GitHub repository   link through your dashboard. Make sure the repository is public. 
+Data Science Masters
